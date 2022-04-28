@@ -21,6 +21,10 @@ String Operators:
 Integer Operators:
 #########################################################
 
+-eq	/is equal to/		if [ "$a" -eq "$b" ]
+-ne	/is equal to/		if [ "$a" -ne "$b" ]
+-gt	/is greater than/	if [ "$a" -gt "$b" ]
+-lt	
 
 
 
