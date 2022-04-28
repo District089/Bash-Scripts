@@ -11,7 +11,7 @@ then
 			echo "Type your text here & press ctrl+d to exit."
 			cat >> $filename
 		else
-			echo "File does not have the write permission."
+			echo "File does not have the write permissions"
 		fi
 else
 	echo "$filename does not exist"
