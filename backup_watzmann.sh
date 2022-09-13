@@ -1,5 +1,3 @@
-# ########################################################################################################################################################################## #
-#                                                                                                                                                                            #
 # This script performs a monthly full backup of files + directoris from watzmann.abg.fsc.net to hochgern.abg.fsc.net and logs the output.                                    #
 # During this time, another script runs an incremental daily backup.                                                                                                         #
 # Before the next full backup, that from the previous month will be archived and moved.                                                                                      #
@@ -8,8 +6,6 @@
 # The current entry you can find in root@watzmann.abg.fsc.net via "crontab -e" (0 12 * * 6 /home1/pe/watzmann/p.cron.watzmann.sh > /home1/pe/watzmann/p.cron.result 2>&1)    #  
 # For montly backup you need e.g (0 00 1 1-12 * /home1/pe/watzmann/backup.sh > /home1/pe/watzmann/p.cron.result 2>&1)                                                        #
 # At 00:00 on day-of-month 1 in every month from January through December.                                                                                                   #
-#                                                                                                                                                                            #
-# ########################################################################################################################################################################## #
 
 #!/bin/bash 
 set -x
